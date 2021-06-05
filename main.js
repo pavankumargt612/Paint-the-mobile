@@ -27,8 +27,8 @@ var last_position_of_x, last_position_of_y;
 
     
 
-    canvas.addEventListener("touchmove", my_touchmove);
-    function my_touchmove(e)
+    canvas.addEventListener("touchmove", my_touchMove);
+    function my_touchMove(e)
     {
 
          current_position_of_touch_x = e.touches[0].clientX - canvas.offsetLeft;
